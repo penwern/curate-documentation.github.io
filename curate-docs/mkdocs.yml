@@ -1,0 +1,8 @@
+site_name: Curate Documentation
+theme:
+  name: 'material'
+  logo: /assets/Penwern Logo Large.png
+  palette:
+    primary: custom
+extra:
+  homepage: https://penwern.co.uk
