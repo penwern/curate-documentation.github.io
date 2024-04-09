@@ -20,7 +20,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material  # Add other dependencies as needed
-
+          
+      - name: Clean previous build
+        run: rm -rf site
+        
       - name: Build MkDocs Site
         run: mkdocs build  # This compiles your site to the ./site directory
 
