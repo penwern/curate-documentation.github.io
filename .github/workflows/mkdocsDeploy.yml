@@ -28,4 +28,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./documentation  # Ensure this points to the directory where mkdocs build outputs the site
+        publish_dir: ./site  # Ensure this points to the directory where mkdocs build outputs the site
