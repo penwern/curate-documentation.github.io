@@ -23,11 +23,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material  # Ensure all dependencies are listed
 
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+      - name: Custom Deploy to GitHub Pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_COMMITTER_NAME: your-github-username  # Replace with your GitHub username
-          GIT_COMMITTER_EMAIL: your-email@example.com  # Replace with your email
-          GIT_AUTHOR_NAME: your-github-username  # Replace with your GitHub username
-          GIT_AUTHOR_EMAIL: your-email@example.com  # Replace with your email
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdocs build --clean
+          git checkout -b gh-pages
+          git add -f site
+          git -c user.name='GitHub Actions' -c user.email='actions@github.com' commit -m 'Deploy MkDocs Site'
+          git push --force ${{ secrets.GITHUB_TOKEN }}@github.com/penwern/curate-documentation.git gh-pages:gh-pages
+
