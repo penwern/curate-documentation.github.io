@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          persist-credentials: false  # This is important for the peaceiris/actions-gh-pages action
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -24,12 +22,13 @@ jobs:
           pip install mkdocs mkdocs-material  # Ensure all dependencies are listed
 
       - name: Custom Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdocs build --clean
-          git checkout -b gh-pages
-          git add -f site
-          git -c user.name='GitHub Actions' -c user.email='actions@github.com' commit -m 'Deploy MkDocs Site'
-          git push --force ${{ secrets.GITHUB_TOKEN }}@github.com/penwern/curate-documentation.git gh-pages:gh-pages
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git fetch --depth=1 origin gh-pages
+          git checkout -B gh-pages
+          git add -f site/*
+          git commit -m 'Deploy MkDocs Site'
+          git push -u origin gh-pages --force
 
