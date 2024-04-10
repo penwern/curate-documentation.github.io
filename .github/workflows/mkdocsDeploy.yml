@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # This is important for the peaceiris/actions-gh-pages action
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -19,16 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material  # Add other dependencies as needed
-          
-      - name: Clean previous build
-        run: rm -rf site
-        
-      - name: Build MkDocs Site
-        run: mkdocs build  # This compiles your site to the ./site directory
+          pip install mkdocs mkdocs-material  # Ensure all dependencies are listed
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+        run: mkdocs gh-deploy --force
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_COMMITTER_NAME: your-github-username  # Replace with your GitHub username
+          GIT_COMMITTER_EMAIL: your-email@example.com  # Replace with your email
+          GIT_AUTHOR_NAME: your-github-username  # Replace with your GitHub username
+          GIT_AUTHOR_EMAIL: your-email@example.com  # Replace with your email
