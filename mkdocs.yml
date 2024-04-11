@@ -1,4 +1,5 @@
 site_name: Curate Documentation
+site_url: https://penwern.github.io/curate-documentation/
 theme:
   name: 'material'
   logo: curate-documentation/assets/Penwern Logo Large.png
