@@ -162,7 +162,6 @@ Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> works in a 
 user experience. You don't have to train all your users on new, complex
 digital preservation applications.
 
-## Curate User Manual
 
 ## General
 
