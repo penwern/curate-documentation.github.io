@@ -4,7 +4,7 @@ nav:
   - Home: documentation.markdown
 theme:
   name: 'material'
-  logo: curate-documentation/assets/Penwern Logo Large.png
+  logo: /assets/Penwern Logo Large.png
   palette:
     primary: custom
 extra:
