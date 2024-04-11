@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="curate-documentation/style.css">
+<link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
 <script>
 document.addEventListener('DOMContentLoaded', function() {
