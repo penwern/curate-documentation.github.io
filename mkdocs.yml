@@ -1,7 +1,7 @@
 site_name: Curate Documentation
 theme:
   name: 'material'
-  logo: /assets/Penwern Logo Large.png
+  logo: curate-documentation/assets/Penwern Logo Large.png
   palette:
     primary: custom
 extra:
