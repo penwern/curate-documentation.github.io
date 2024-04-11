@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
-<img src="curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image1.png" style="width: 10em;"></img>
+<img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image1.png" style="width: 10em;"></img>
 
 # Penwern Curate <span style="font-size: 8pt;vertical-align: super;">TM</span>
 
@@ -184,7 +184,7 @@ security requirements will have been discussed and integrated during
 your signup.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image2.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image2.png" style=""></img>
 </div>
 
 ## Application Areas
@@ -197,7 +197,7 @@ screen provides you with links to recent content, and ways to navigate
 through the rest of the application.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image3.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image3.png" style=""></img>
 </div>
 
 In the centre-top of the home screen, you will find the search bar. At
@@ -222,11 +222,11 @@ The bookmarks tab can be accessed from the icon in the navigation panel.
 The bookmarks tab keeps references to all the files and folders you have 
 saved using the "bookmark" feature [(*see bookmarking a file or folder*)](#bookmarking-a-file-or-folder). 
 Clicking one of the items will navigate you to its location in Curate. 
-If you want to remove an item from your bookmarks, click the <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image4.png" class="text-icon"style=""></img> icon 
+If you want to remove an item from your bookmarks, click the <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image4.png" class="text-icon"style=""></img> icon 
 next to the item you wish to remove.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image5.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image5.png" style=""></img>
 </div>
 
 ### Workspaces
@@ -247,7 +247,7 @@ You will see the following spaces:
 -   Common Files
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image6.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image6.png" style=""></img>
 </div>
 
 Workspaces are where you perform your eArchiving workflow within Curate,
@@ -337,7 +337,7 @@ about a file or object inside Curate. The object information area will
 appear on the right-hand side of the screen when you select a single
 file or folder.
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image7.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image7.png" style=""></img>
 </div>
 #### Object information area panels
 
@@ -348,7 +348,7 @@ shows a preview of the object you have selected and presents options to
 share, download, or open the file in one of Curates rendering tools.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image8.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image8.png" style=""></img>
 </div>
 
 ##### File information panel
@@ -358,13 +358,13 @@ selected object, along with the quarantine status, scan results and
 detailed characterization information when the file has been appraised.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image9.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image9.png" style=""></img>
 </div>
 
 ##### Extracted metadata panels; EXIF etc
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image10.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image10.png" style=""></img>
 </div>
 
 When you select a file that includes some
@@ -375,7 +375,7 @@ information area. Click on "more" to view the full extracted EXIF data.
 ##### Metadata panel
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image11.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image11.png" style=""></img>
 </div>
 
 Clicking on any file or folder in Curate
@@ -394,7 +394,7 @@ section allows you to make an object harvestable via your Curate systems
 OAI-PMH server. See [*exporting records*](#) for more detail.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image12.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image12.png" style=""></img>
 </div>
 
 ##### Comments
@@ -403,13 +403,13 @@ Each object in Curate has its own comments section that lets you leave
 notes or comments for yourself or your colleagues.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image13.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image13.png" style=""></img>
 </div>
 
 ##### File activity
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image14.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image14.png" style=""></img>
 </div>
 
 The final panel in the object information area, when a file or folder is selected in the file list, 
@@ -469,7 +469,7 @@ jobs can be added at any time and will just be added to the upload
 queue.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image15.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image15.png" style=""></img>
 </div>
 
 You can also simply drag your objects into the Curate window with the
@@ -482,7 +482,7 @@ options that dictate how Curate handles certain situations that can be
 dangerous to an archiving workflow.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image16.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image16.png" style=""></img>
 </div>
 
 **Start uploading automatically**
@@ -521,14 +521,14 @@ the result of each files integrity check will appear underneath each
 item in the uploader window.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image17.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image17.png" style=""></img>
 </div>
 
 Each of your files will also have a label attached which permanently
 records the result of the integrity check.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image18.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image18.png" style=""></img>
 </div>
 
 ### SFTP
@@ -646,7 +646,7 @@ Files that are found to be compromised or infected are labeled "Risk"
 and are immediately relocated to the infected directory.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image19.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image19.png" style=""></img>
 </div>
 
 ##### Released
@@ -701,7 +701,7 @@ NB: once your sharing link has expired, nothing will happen to your
 shared files or folders, the public URL will simply become inaccessible.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image20.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image20.png" style=""></img>
 </div>
 
 #### Usage
@@ -711,7 +711,7 @@ be presented with a simple interface into which they can upload their
 deposit.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image21.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image21.png" style=""></img>
 </div>
 
 #### Simple upload interface
@@ -742,7 +742,7 @@ and right click in the empty space. You should then select the "Smart
 Form" option.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image22.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image22.png" style=""></img>
 </div>
 
 The Smart Form builder will allow you to select what file formats you
@@ -769,7 +769,7 @@ users are unable to submit their deposit until they have completed all
 your mandatory requirements.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image23.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image23.png" style=""></img>
 </div>
 
 ## Appraisal, selection and arrangement
@@ -790,7 +790,7 @@ in the lefthand column. Multiple files or folders can be selected for
 each move using the usual Control or Shift operations.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image24.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image24.png" style=""></img>
 </div>
 
 Note that if files are moved into Appraisal early (i.e. before the
@@ -861,7 +861,7 @@ object information area, you will see the file metadata panel. (*see
 object information area, metadata panel*).
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image25.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image25.png" style=""></img>
 </div>
 
 Next, click the dropdown for your chosen
@@ -872,7 +872,7 @@ Enter the metadata for each field you would like to modify, and you will
 then see the "save" button appear at the bottom of the panel.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image26.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image26.png" style=""></img>
 </div>
 
 Note that the save button will appear as
@@ -887,7 +887,7 @@ To describe multiple files and or folders at once, first select all the
 objects you would like to create or modify descriptive records for.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image27.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image27.png" style=""></img>
 </div>
 
 In the object information area, you will see only the file actions panel
@@ -896,7 +896,7 @@ multiple selection of objects, or "meta data" to modify the descriptive
 records of all the files.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image28.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image28.png" style=""></img>
 </div>
 
 You can also right click any of the
@@ -904,14 +904,14 @@ objects in your selection, and you will see the "meta data" option in
 the context menu.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image29.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image29.png" style=""></img>
 </div>
 
 You will then be prompted to select the
 fields that you would like to modify.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image30.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image30.png" style=""></img>
 </div>
 
 As you tick each field you would like to
@@ -932,7 +932,7 @@ over the chart to see the numbers. You can also download the MIME type
 report as a CSV file.
 
 <div class="main-content-img-container">
-    <img src="/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image31.png" style=""></img>
+    <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image31.png" style=""></img>
 </div>
 
 ### Creating a Transfer Package or SIP
