@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
-<img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image1.png" style="width: 10em;"></img>
+<img src="/curate-documentation/assets/Penwern Logo Large.png" style="width: 10em;"></img>
 
 # Penwern Curate <span style="font-size: 8pt;vertical-align: super;">TM</span>
 

@@ -1,8 +1,9 @@
-site_name: Curate Documentation
+site_name: Soteria+ Documentation
+docs_dir: soteria-plus-docs
 site_url: https://penwern.github.io/sotera-plus-documentation/
 theme:
   name: 'material'
-  logo: /curate-documentation/assets/penwernmax.png
+  logo: /curate-documentation/assets/Max Communications Logo Large.png
   palette:
     primary: custom
 extra:
