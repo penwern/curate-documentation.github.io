@@ -46,7 +46,7 @@ jobs:
       
       - name: Build and Deploy Soteria+ Documentation
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOTERIA_PLUS_PAT: ${{ secrets.SOTERIA_PLUS_PAT }}
         run: |
           mkdocs build --clean --config-file mkdocs-soteria-plus.yml --site-dir soteria-plus-site
           cd soteria-plus-site
@@ -55,5 +55,5 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git commit -m 'Deploy Soteria+ MkDocs Site'
-          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/penwern/soteria-plus-documentation.git
+          git remote add origin https://x-access-token:${SOTERIA_PLUS_PAT}@github.com/penwern/soteria-plus-documentation.git
           git push -f origin HEAD:gh-pages
