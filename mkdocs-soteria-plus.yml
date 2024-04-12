@@ -1,0 +1,9 @@
+site_name: Curate Documentation
+site_url: https://penwern.github.io/sotera-plus-documentation/
+theme:
+  name: 'material'
+  logo: /curate-documentation/assets/penwernmax.png
+  palette:
+    primary: custom
+extra:
+  homepage: https://www.maxcommunications.co.uk
