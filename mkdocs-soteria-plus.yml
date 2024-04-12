@@ -1,4 +1,5 @@
-site_name: Curate Documentation
+site_name: Soteria+ Documentation
+docs_dir: soteria-plus-docs
 site_url: https://penwern.github.io/sotera-plus-documentation/
 theme:
   name: 'material'
