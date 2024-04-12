@@ -49,9 +49,9 @@ jobs:
       
       - name: Generate Soteria+ Documentation
         run: |
+          rm -rf soteria-plus-docs
           mkdir soteria-plus-docs
           cp -R docs/* soteria-plus-docs/
-          # Applying sed to replace text in all Markdown files recursively
           find soteria-plus-docs/ -type f \( -name '*.md' -o -name '*.markdown' \) -exec sed -i 's/Curate/Soteria+/g' {} +
 
       
