@@ -689,8 +689,7 @@ Personal.
 #### Setup
 
 First create and share a folder for your deposit space. This folder is
-where your depositors will upload their content. *See sharing a file or
-folder.*
+where your depositors will upload their content. [(*see sharing a file or folder*)](#sharing-a-file-or-folder)
 
 Once shared, you can enable "Upload files" under the permissions tab.
 You should typically disable download permissions unless you want your
@@ -1145,12 +1144,11 @@ object is added as an additional item in the same folder.
 
 ## Search and Access
 
-### Creating a Link
+### Sharing a file or folder
 
 You can create a public or secure, private link for any file or folder
 in your account. When clocking the link, guest users can view, download,
-view metadata and even upload content. Start by selecting Share by
-either right clicking on a file or folder or from the top
+view metadata and even upload content. Start by selecting your content, and then selecting "share" either from the right click context-menu, or from the top main options bar in the file-list.
 
 ### Searching for Files
 
