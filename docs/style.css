@@ -56,18 +56,29 @@
     border-radius: 1em;
     position: relative;
 }
-.tip .mdi-information-outline {
+.warning{
+  padding: 3em;
+  background-color: rgba(240, 111, 106, 0.58);
+  border-radius: 1em;
+  position: relative;
+}
+.tip, .warning .mdi {
     position: absolute;
     left: 0;
     top: 0;
     padding-left: 0.3em;
     padding-right: 0.3em;
-    background: aquamarine;
     margin: 0.6em;
     border-radius: 0.8em;
     display: flex;
     justify-content: space-around;
     font-size: x-large;
+}
+.tip .mdi {
+  background: aquamarine;
+}
+.warning .mdi {
+  background-color: rgba(255, 14, 14, 0.58);
 }
 .tip span:not(.mdi){
     display: flex;

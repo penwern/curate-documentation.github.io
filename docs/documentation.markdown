@@ -995,7 +995,35 @@ desired customisations, and we will make the required modifications for you.
 The preservation workflow in Curate is highly customisable. You can choose to enable, disable or modify various parameters related to the handling of
 your content:
 
-**
+* *Config Name:* The reference name given to your custom config, as it will appear in your list of available preservation configs when preserving an item. You should make your config names unique.
+
+* *Config Description:* A brief description of your customised config to let you or your colleagues know what it's purpose is. 
+
+* *Normalise Objects:*  Enable or disable the normalisation process for objects in your preservation selection
+
+* *Image Normalisation Format:* Select your preferred format for image normalisation.
+
+* *AIP Packaging Type:* Select the output packaging format of your workflow AIPs.
+    * *standard:* Standard bagit AIP packaging 
+    * *EARK:* Package AIPs in line with the EARK specifications. <a href="https://eark.online/">Read more about EARK here.</a>
+
+* *Compress AIPs:* Whether to apply a compression algorithm to your output AIP object. 
+    * *Compression Algorithm:* Compression algorithm to apply to AIPs.
+    * *Compression Level:* Level of compression to apply to AIPs.
+
+* *Generate Transfer Structure Report:* Generate a report about your incoming objects before preservation actions are applied to them
+
+* *Document Empty Directories:* Create an entry in the AIP METS Structmap for empty directories within your preservation selection before they are deleted.
+
+* *Extract Packages:* Any package objects (like .zip files) within your preservation selection will be extracted to a folder before your content is preserved.
+
+    * *Delete Packages After Extraction:* The original package object referenced above will be deleted once its contents has been extracted, otherwise the original package object is preserved along with its extracted contents
+
+<div class="warning"><span class="mdi mdi-alert"></span><span>Enabling compression for your AIPs will save a small amount of storage in your Archive workspace, depending on the selected algorithm and level, but it will also prevent Curate from being able to index their contents. This means you will not be able to search for files inside of your AIPs. As a result, we strongly recommend leaving AIP compression disabled.</span></div>
+
+    
+
+
 
 The system comes packaged with a default preservation config which is enacted when you choose the standard "Preserve" option in the UI [(*see preserving files and folders*)](#preserving-files-and-folders)
 , and should be appropriate for most use-cases. If you would like to create a customised configuration that modifies any of the parameters described above, Curate provides an intuitive interface for customising, saving and editing your own preservation configs.
@@ -1060,13 +1088,16 @@ By applying the format policy registry and a set of format migration tools, A3M 
 ##### Normalisation Tools
 
 *Image Files*
+
  * <a href="https://imagemagick.org/script/convert.php">Imagemagick Convert</a>
  * <a href="https://inkscape.org/">Inkscape</a>
 
 *Audio-Visual Files*
+
  * <a href="https://www.ffmpeg.org/">FFmpeg</a>
 
 *Document Files*
+
  * <a href="https://www.ghostscript.com/">Ghostscript</a>
  * <a href="https://www.ps2pdf.com/">Ps2pdf</a>
 
