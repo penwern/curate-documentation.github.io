@@ -2,6 +2,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    //set up Archivematica documentation version
+    
   // Find all nav links with submenus
   document.querySelectorAll('.md-nav--secondary .md-nav__link').forEach(function(link) {
     const parentLi = link.closest('.md-nav__item');
@@ -942,6 +944,138 @@ EARK compliant systems using the templates in the Package Templates
 workspace. We can give you a demonstration of package creation if you
 are interested, just send us a message via the support channel.
 
+## Preservation
+
+Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> features a highly automated digital preservation service that
+wraps the open source tool A3M into a dynamic workflow. Curate preservation workflows are highly configurable, simple to action, 
+and automate the process of performing best-practice preservation and packaging actions on your files and folders. 
+
+### About A3M
+
+A3M is an open-source tool, developed by the sensational Artefactual Systems <span style="font-size: 8pt;vertical-align: super;">TM</span>,
+that distills the essential preservation and packaging functionality of their widely-used platform Archivematica <span style="font-size: 8pt;vertical-align: super;">TM</span>
+into a specialised client. By removing uneeded components like the backend storage management and frontend-application while maintaining the same core code that has
+powered digital archiving programmes accross the globe, A3M is able to provide reliable, comprehensive preservation and packaging functionalities in entirely new contexts. 
+
+<a href="https://a3m.readthedocs.io/en/latest/">You can read more about A3M here</a>
+
+<a href="https://github.com/artefactual-labs/a3m">Or check out the repository on Github.</a>
+
+
+<span style="font-size: 8pt;">A3M and Archivematica are trademarks of <a href="https://www.artefactual.com/">Artefactual Systems Inc.</a></span>
+
+### The Format Policy Registry (FPR)
+
+The format policy registry is a dictionary of rules and pathways that encode the routes, tools and methods A3M chooses to follow when migrating
+your objects into preservation and access derivatives. 
+
+<div class="tip">
+<span class="mdi mdi-information-outline"></span>
+<span>The default FPR in Curate encapsulates a broad variety of migration pathways across several tools, offering wide coverage for file formats and applying
+extensively production-tested methodologies. It is the same as you would find in a standard installation of Archivematica.</span></div>
+
+#### Customising the FPR
+
+The Curate FPR is set up by default to over wide coverage for file formats and to apply pathways that are deployed across hundreds
+of institutions in Archivematica systems globally. We believe maintaining this FPR enables an optimal balance between coverage, and 
+consistency/interoperability with other preservation systems. 
+
+However, if your use-case necessitates changes to the default FPR to either extend it's coverage for novel or unique file formats, or even to
+modify existing pathways, every aspect of the registry can be completely customised.
+
+If you are an existing Archivematica user transferring your process to Curate and you currently deploy a customised FPR, please get in touch
+with us and we will be able to use your FPR as a drop-in replacement for your Curate system (provided your Archivematica installation was
+relatively up-to-date.)
+
+If you are an existing or new Curate user and you would like to modify your systems FPR, you can get in touch with us to describe your 
+desired customisations, and we will make the required modifications for you.
+
+### Preservation Configs
+
+The preservation workflow in Curate is highly customisable. You can choose to enable, disable or modify various parameters related to the handling of
+your content:
+
+**
+
+The system comes packaged with a default preservation config which is enacted when you choose the standard "Preserve" option in the UI [(*see preserving files and folders*)](#preserving-files-and-folders)
+, and should be appropriate for most use-cases. If you would like to create a customised configuration that modifies any of the parameters described above, Curate provides an intuitive interface for customising, saving and editing your own preservation configs.
+
+#### Creating a config
+
+To create a new preservation config, first select the main user dropdown in the top left-hand corner of the Curate interface by clicking this icon: <div size="38" style="color: rgb(255, 255, 255); background-color: rgb(0, 102, 138); user-select: none; display: inline-flex; align-items: center; justify-content: center; font-size: 19px; border-radius: 50%; height: 38px; width: 38px;"><span class="mdi mdi-account" color="#ffffff" style="display: flex;align-content: center;color: rgb(255, 255, 255); position: relative; font-size: 22.8px; display: inline-block; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 22.8px; height: 22.8px; margin: 7.6px;"></span></div>
+
+From the dropdown, select "Preservation Configs" to open the configs menu.
+<div class="main-content-image-container">
+    <img src="/curate-documentation/assets/Preservation Configs Menu.png"></img>
+</div>
+
+On the left hand side of the menu, you will find all the controls for creating new configs or editing existing ones. On the right, you will find a list of all of your saved configs. [(*see modifying configs*)](#modifying-a-config)
+
+To create a config, simply customise your desired parameters in the left hand area and then give your new config a name in the "details" box. Once you have entered a name, you will see the "Save config" button appear. Once you've hit "save", your configs will be reloaded and you will see your new config slide into the list of saved configs on the right.
+
+#### Modifying a config
+
+To modify your saved configs, navigate to the preservation configs menu, locate your saved config in the "Saved configs" area on the right of the menu, hover over and click your config to load it into the
+working area on the left of the preservation configs menu.
+
+Once the details of your saved config have loaded, you may begin to modify it's parameters and you will notice the "Save" button appear. Click the "save" button to write your new changes into the saved config.
+
+<div class="tip"><span class="mdi mdi-information-outline"></span><span>You'll notice each of your saved configs has a star icon to the left of its information in the saved configs area. You can click on this icon to favourite any of your saved configs. When you go to launch a preservation workflow on some content, your favourite configs will be shown in the main context menu, rather than appearing in the custom configs drop-down. 
+</span></div>
+
+### Preserving Files and Folders
+
+Initiating digital preservation on any of your content in Curate is unbelievably simple. **Should we only allow preservation from appraisal?** Just navigate to the content you'd like to preserve, it can be a file, folder or multiples of either, select your content, right click, and hit "Preserve". 
+
+This will launch the default preservation config on your selection.
+
+You will receive a confirmation message reporting that your action was triggered successfully, and that's it. Curate will handle the rest. 
+
+As Curate begins to action the preservation config, you will see a series of status updates appear as tags on your targeted content. 
+
+Once Curate has finished processing your selection, it will indicate that the content has been preserved in a tag.
+
+To initiate a customised config on your selection [(*see creating configs*)](#creating-a-config), simply right-click your selection and then click the "Preservation Configs" dropdown option in the context menu.
+You will be prompted with a list of all the customised configs you've created, and a quick link to create a new one. Just chose your config to initiate it on your selection, the rest of the process is identical.
+
+### The Core Preservation Process
+
+Curate uses A3M [(*see about A3M*)](#about-A3M) to power the core preservation actions in its workflow:
+
+#### Characterisation
+
+A3M Uses a set of tools to characterise and extract technical properties about files and store that information in the resultant AIP METS
+
+##### Characterisation Tools
+
+ * <a href="http://ffmpeg.org/">FFProbe</a>
+ * <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>
+ * <a href="https://exiftool.org/index.html">ExifTool</a>
+ * <a href="https://forensicswiki.xyz/wiki/index.php?title=Fiwalk">Fiwalk</a>
+
+#### Normalisation
+
+By applying the format policy registry and a set of format migration tools, A3M transforms input objects into formats that are best-positioned for long-term preservation. Normalisation is the primary digital preservation strategy in A3M and Curate.
+
+##### Normalisation Tools
+
+*Image Files*
+ * <a href="https://imagemagick.org/script/convert.php">Imagemagick Convert</a>
+ * <a href="https://inkscape.org/">Inkscape</a>
+
+*Audio-Visual Files*
+ * <a href="https://www.ffmpeg.org/">FFmpeg</a>
+
+*Document Files*
+ * <a href="https://www.ghostscript.com/">Ghostscript</a>
+ * <a href="https://www.ps2pdf.com/">Ps2pdf</a>
+
+#### Validation
+
+A3M verifies that the content of an object is complete, valid and well formed. 
+
+## Packaging
+
 ## Miscellaneous
 
 ### Bookmarking a File or Folder
@@ -1050,12 +1184,15 @@ window, which should be labelled with a truncated version of your user
 ID and select Support. This will take you to a contact form which goes
 directly to the Penwern support team.
 
-# Suggestions
+# Roadmap and Suggestions
 
-Curate is a very flexible platform on which it is relatively easy for us
-to add functionality over time. We have a lot of ideas already and will
-put a list up on the website soon. However, we would really like to know
-your needs for new functions so that we can prioritise. Please drop us a
-line and also indicate if we can contact you in case we have questions.
+Curate is an incredibly dynamic and flexible platform on which it is easy for us
+to add exciting functionality over time. We have a lot of ideas already, and we will 
+publish a public roadmap in the future, but we would also really like to know
+your needs for new functions that we can prioritise. 
 
-[^1]: ar Future functionality, expected mid 2023
+Please drop us a line if you have any suggestions for the future of the platform,
+and also indicate if we can contact you in case we have questions.
+
+Check out our website for exciting updates on the latest features coming to
+Curate.

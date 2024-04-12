@@ -56,7 +56,7 @@
     border-radius: 1em;
     position: relative;
 }
-.tip .mdi {
+.tip .mdi-information-outline {
     position: absolute;
     left: 0;
     top: 0;
