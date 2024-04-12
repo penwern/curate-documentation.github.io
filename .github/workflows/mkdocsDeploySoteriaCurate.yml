@@ -36,6 +36,16 @@ jobs:
           git commit -m 'Deploy Curate MkDocs Site'
           git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/penwern/curate-documentation.git
           git push -f origin HEAD:gh-pages
+          
+      - name: Test and debug text replacement
+        run: |
+          mkdir soteria-plus-docs
+          cp -R docs/* soteria-plus-docs/
+          # List all relevant files to verify they are correctly identified
+          find soteria-plus-docs/ -type f \( -name '*.md' -o -name '*.markdown' \)
+          # Applying sed to replace text and displaying file contents before and after
+          find soteria-plus-docs/ -type f \( -name '*.md' -o -name '*.markdown' \) -exec sh -c 'echo "Before:"; cat {}; sed -i "s/Curate/Soteria+/g" {}; echo "After:"; cat {}' \;
+
       
       - name: Generate Soteria+ Documentation
         run: |
