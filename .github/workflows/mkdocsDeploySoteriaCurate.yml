@@ -41,8 +41,10 @@ jobs:
         run: |
           mkdir soteria-plus-docs
           cp -R docs/* soteria-plus-docs/
+          # Troubleshoot by checking if files are copied correctly
+          ls -R soteria-plus-docs/
+          # Applying sed to replace text in all Markdown files recursively
           find soteria-plus-docs/ -type f -name '*.md' -exec sed -i 's/Curate/Soteria+/g' {} +
-          # Add more sed commands to replace other Curate-specific terms with Soteria+ equivalents
       
       - name: Build and Deploy Soteria+ Documentation
         env:
