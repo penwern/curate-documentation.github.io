@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    //set up Archivematica documentation version
     
   // Find all nav links with submenus
   document.querySelectorAll('.md-nav--secondary .md-nav__link').forEach(function(link) {
@@ -284,8 +283,7 @@ content.
 #### Quarantine Space
 
 Content that is to be appraised and arranged in Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> should be
-uploaded into the Quarantine workspace [*see upload and ingest for more
-information*](#upload-and-ingest). This is a shared workspace and so is visible to all
+uploaded into the Quarantine workspace [(*see upload and ingest for more information*)](#upload-and-ingest). This is a shared workspace and so is visible to all
 members of a workgroup. Uploaded files are virus checked and quarantined
 for 30 days. It is recommended that files should not be moved from the
 Quarantine workspace until the quarantine period is up, however
@@ -312,8 +310,7 @@ to see detailed information on the file format. Within the Appraisal
 workspace you can move, copy and delete files, create folders and add
 descriptive metadata. Using detailed file information you can make
 appraisal decisions. From the appraisal space, you can also preserve and
-package your objects in any configuration you wish. [*See preserving and
-packaging objects for more information.*](#)
+package your objects in any configuration you wish. [*See preservation*](#preservation) and [*packaging*](#packaging) for more information.
 
 #### Archive Space
 
@@ -499,8 +496,7 @@ connection.
 Enabling this option will close the upload panel as soon as the final
 file has finished uploading to Curate. Leaving this option disabled will
 allow you to browse your completed uploads in the panel and at-a-glance
-verify that they have valid integrity checks [*see pre-upload integrity
-verification*] (#Pre-upload-integrity-verification).
+verify that they have valid integrity checks [*see pre-upload integrity verification*](#pre-upload-integrity-verification).
 
 **If a file with the same name exists**
 
@@ -569,8 +565,7 @@ integrity.
 
 To resolve this, you will need to generate a JSON manifest of checksums
 for your ingest content before you perform your SFTP upload, and then
-perform manual ingest integrity verification once it is complete. *See
-Manual Ingest Integrity Verification for more information.*
+perform manual ingest integrity verification once it is complete. [*See Manual Ingest Integrity Verification for more information.*](#manual-ingest-integrity-verification)
 
 <div class="tip"><span class="mdi mdi-information-outline"></span><span>
 mission control features powerful uploading capabilities, as
@@ -582,7 +577,7 @@ faster, more robust, less fragmented and more pleasant user experience.
 Once you have generated your checksum manifest, you may proceed to
 upload your content via SFTP. Once your content is uploaded, and we have
 completed the necessary reindex, you can upload your checksum manifest.
-*See Manual Integrity Verification for more information*
+[*See Manual Integrity Verification for more information*](#manual-ingest-integrity-verification)
 
 ### Curate Mission Control
 
@@ -616,8 +611,7 @@ To perform manual ingest integrity verification, follow these steps:
 #### Generating a checksum manifest
 
 There are free several tools available to do this, but we would strongly
-recommend using our companion tool "mission control". *See Curate
-mission control for more information.*
+recommend using our companion tool "mission control". [*See Curate mission control for more information.*](#curate-mission-control)
 
 <div class="tip"><span class="mdi mdi-information-outline"></span><span>
 For best practice, we recommend uploading your checksum manifest
@@ -800,8 +794,7 @@ to indicate that full quarantine conditions were not met.
 Once you have files in the Appraisal workspace, Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> runs
 comprehensive file characterisation programmes. To access the generated
 characterization information, select a file and check the file
-information panel in the object information area. (*see File Information
-Panel*). Characterised objects will include these fields in their
+information panel in the object information area. [(*see File Information Panel*)](#file-information-panel). Characterised objects will include these fields in their
 information area:
 
 -   File MIME type
@@ -841,13 +834,11 @@ it goes in the system.
 
 Descriptive metadata is used to annotate a file, folder or group of
 files in a folder structure. All descriptive metadata in Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is
-indexed and searchable (*see search*). Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> provides both the
+indexed and searchable [(*see search*)](#search-and-access). Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> provides both the
 Dublin Core simple 15 element schema which you can read about in detail
-(if you want to) at:
-<https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3>
+(if you want to) <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3">here</a>
 and the full General International Standard Archival Description ISAD(G)
-descriptive metadata schema which you can read more about at:
-https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition.
+descriptive metadata schema which you can read more about <a href="https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition">here</a> 
 
 You can be as precise as you wish with the use of metadata elements by
 following the specifications and controlled vocabularies. Alternatively,
@@ -857,8 +848,7 @@ impose rules.
 
 To begin to describe any file or folder in Curate, select the object you
 would like to describe. On the right hand side of your screen, in the
-object information area, you will see the file metadata panel. (*see
-object information area, metadata panel*).
+object information area, you will see the file metadata panel. ([*see object information area*](#object-information-area) , and [*metadata panel*](#metadata-panel)).
 
 <div class="main-content-img-container">
     <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image25.png" style=""></img>
@@ -891,7 +881,7 @@ objects you would like to create or modify descriptive records for.
 </div>
 
 In the object information area, you will see only the file actions panel
-(*see file actions panel*) which will contain options to download the
+[(*see file actions panel*)](#file-actions-panel) which will contain options to download the
 multiple selection of objects, or "meta data" to modify the descriptive
 records of all the files.
 
@@ -1067,7 +1057,7 @@ You will be prompted with a list of all the customised configs you've created, a
 
 ### The Core Preservation Process
 
-Curate uses A3M [(*see about A3M*)](#about-A3M) to power the core preservation actions in its workflow:
+Curate uses A3M [(*see about A3M*)](#about-a3m) to power the core preservation actions in its workflow:
 
 #### Characterisation
 
@@ -1105,6 +1095,16 @@ By applying the format policy registry and a set of format migration tools, A3M 
 A3M verifies that the content of an object is complete, valid and well formed. 
 
 ## Packaging
+
+Curate integrates a custom AIP packaging system that allows it to output your archival objects in any standardised structure. By default it uses the bagit specification, and EARK packaging is also supplied out of the box. See [preservation configs](#preservation-configs) for more information about custom packaging formats.
+
+Once the core preservation process has completed (see [preservation](#preservation)), the resultant AIP objects will be output to your Archival workspace (see [archive workspace](#archive-space)). 
+
+Please get in touch with us if Curate does not support a specific packaging format that your organisation requires.
+
+<a href="https://www.ietf.org/rfc/rfc8493.txt">Read more about the bagit specification here</a>
+
+<a href="https://eark.online">Read more about EARK here</a>
 
 ## Miscellaneous
 
