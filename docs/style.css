@@ -62,7 +62,7 @@
   border-radius: 1em;
   position: relative;
 }
-.tip, .warning .mdi {
+.tip .mdi, .warning .mdi {
     position: absolute;
     left: 0;
     top: 0;
