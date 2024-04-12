@@ -112,33 +112,33 @@ critical functions within an electronic archiving system discretely or
 can form a complete and effective system itself. Individually,
 Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> can perform the following roles:
 
-Upload and Accession
+ - Ingest, Upload and Accession
 
-Smart Deposit System
+ - Smart Deposit System
 
-Metadata Extraction
+ - Metadata Extraction
 
-Transcriber
+ - Transcriber
 
-Fixity Agent
+ - Fixity Agent
 
-Appraisal System
+ - Appraisal System
 
-Selection and Arrangement Workspace
+ - Selection and Arrangement Workspace
 
-Reporting System
+ - Reporting System
 
-Unified Description Tool
+ - Unified Description Tool
 
-Digital Preservation System
+ - Digital Preservation System
 
-OAIS Information Packaging
+ - OAIS Information Packaging
 
-Document Editing
+ - Document Editing
 
-Advanced Access System
+ - Advanced Access System
 
-Public Access Portal
+ - Public Access Portal
 
 In combination, these services mean that Curate comprises a
 comprehensive and highly capable electronic archiving system all on its
@@ -939,45 +939,55 @@ Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> features a 
 wraps the open source tool A3M into a dynamic workflow. Curate preservation workflows are highly configurable, simple to action, 
 and automate the process of performing best-practice preservation and packaging actions on your files and folders. 
 
+Here's the enriched version with proper markdown formatting and escaping:
+
 ### About A3M
 
-A3M is an open-source tool, developed by the sensational Artefactual Systems <span style="font-size: 8pt;vertical-align: super;">TM</span>,
-that distills the essential preservation and packaging functionality of their widely-used platform Archivematica <span style="font-size: 8pt;vertical-align: super;">TM</span>
-into a specialised client. By removing uneeded components like the backend storage management and frontend-application while maintaining the same core code that has
-powered digital archiving programmes accross the globe, A3M is able to provide reliable, comprehensive preservation and packaging functionalities in entirely new contexts. 
+A3M is an open-source tool, developed by the sensational Artefactual Systems <span style="font-size: 8pt;vertical-align: super;">TM</span>, that distills the essential preservation and packaging functionality of their widely-used platform Archivematica <span style="font-size: 8pt;vertical-align: super;">TM</span> into a specialised module. By removing unneeded components like the backend storage management and frontend-application while maintaining the same core code that has powered digital archiving programs across the globe, A3M is able to provide reliable, comprehensive preservation and packaging functionalities in entirely new contexts.
 
-<a href="https://a3m.readthedocs.io/en/latest/">You can read more about A3M here</a>
+<a href="https://a3m.readthedocs.io/en/latest/">Read the A3M documentation</a>
 
-<a href="https://github.com/artefactual-labs/a3m">Or check out the repository on Github.</a>
-
+<a href="https://github.com/artefactual-labs/a3m">Explore the A3M GitHub repository</a>
 
 <span style="font-size: 8pt;">A3M and Archivematica are trademarks of <a href="https://www.artefactual.com/">Artefactual Systems Inc.</a></span>
 
-### The Format Policy Registry (FPR)
+#### A3M Benefits
 
-The format policy registry is a dictionary of rules and pathways that encode the routes, tools and methods A3M chooses to follow when migrating
-your objects into preservation and access derivatives. 
+Some key benefits of using A3M for digital preservation include:
 
-<div class="tip">
-<span class="mdi mdi-information-outline"></span>
-<span>The default FPR in Curate encapsulates a broad variety of migration pathways across several tools, offering wide coverage for file formats and applying
-extensively production-tested methodologies. It is the same as you would find in a standard installation of Archivematica.</span></div>
+ - Standards compliance: A3M fully supports the OAIS reference model, creates valid and well formed METS documents, and produces AIPs that conform to the BagIt specification.
+ - Comprehensive format support: A3M's default Format Policy Registry (FPR) covers a wide range of file formats, from common office documents to complex multimedia files.
+ - Extensibility: A3M's modular design makes it easy to add support for new formats, tools, and workflows as needs evolve.
+ - Community-driven development: As an open-source project, A3M benefits from the contributions and expertise of a diverse community of users and developers.
 
-#### Customising the FPR
+<span style="font-size: 8pt;">A3M and Archivematica are trademarks of <a href="https://www.artefactual.com/">Artefactual Systems Inc.</a></span>
 
-The Curate FPR is set up by default to over wide coverage for file formats and to apply pathways that are deployed across hundreds
-of institutions in Archivematica systems globally. We believe maintaining this FPR enables an optimal balance between coverage, and 
-consistency/interoperability with other preservation systems. 
+#### The Format Policy Registry (FPR)
 
-However, if your use-case necessitates changes to the default FPR to either extend it's coverage for novel or unique file formats, or even to
-modify existing pathways, every aspect of the registry can be completely customised.
+At the heart of A3M's preservation workflow is the Format Policy Registry (FPR). The FPR is a centralised knowledge base that contains information about file formats and the optimal tools and strategies used to perform preservation and access normalisation on them.
 
-If you are an existing Archivematica user transferring your process to Curate and you currently deploy a customised FPR, please get in touch
-with us and we will be able to use your FPR as a drop-in replacement for your Curate system (provided your Archivematica installation was
-relatively up-to-date.)
+The FPR consists of three main components:
 
-If you are an existing or new Curate user and you would like to modify your systems FPR, you can get in touch with us to describe your 
-desired customisations, and we will make the required modifications for you.
+ - Format database: A comprehensive registry of file formats.
+ - Tool database: A curated collection of open tools used for normalisation.
+ - Policy rules: A set of customisable rules that map specific file formats to their recommended normalisation actions.
+
+ <span style="font-size: 8pt;">A3M and Archivematica are trademarks of <a href="https://www.artefactual.com/">Artefactual Systems Inc.</a></span>
+
+<div class="tip"> <span class="mdi mdi-information-outline"></span> <span>The default FPR in Curate encapsulates a broad variety of migration pathways across several tools, offering wide coverage for file formats and applying extensively production-tested methodologies. It is the same as you would find in a standard installation of Archivematica.</span> </div>
+
+By leveraging the collective knowledge and best practices encoded in the FPR, A3M is able to make informed, standards-based decisions about how to best preserve your digital content for the long term.
+
+##### Customising the FPR
+While the default FPR in Curate provides excellent coverage for a wide range of common file formats, we recognize that every institution has unique needs and priorities when it comes to digital preservation. That's why we've made it easy to customize the FPR to better align with your specific requirements.
+
+Whether you need to add support for niche or proprietary formats, fine-tune the normalisation rules for certain content types, or integrate new preservation tools into your workflow, the FPR in Curate can be fully tailored. 
+
+If you are an existing Archivematica user migrating to Curate, we can even use your existing customised FPR as a drop-in, ensuring a smooth transition and continuity of your preservation practices (provided your Archivematica installation is reasonably up-to-date).
+
+To discuss customising the FPR for your Curate instance, please contact our support team. We'll work with you to understand your unique requirements and implement the necessary changes to your A3M FPR.
+
+By combining the robustness and reliability of A3M with the flexibility and extensibility of the Curate platform, Curate enables you to implement a best-in-class digital preservation solution in an intuitive and reliable wrapper.
 
 ### Preservation Configs
 
@@ -1010,10 +1020,6 @@ your content:
 
 <div class="warning"><span class="mdi mdi-alert"></span><span>Enabling compression for your AIPs will save a small amount of storage in your Archive workspace, depending on the selected algorithm and level, but it will also prevent Curate from being able to index their contents. This means you will not be able to search for files inside of your AIPs. As a result, we strongly recommend leaving AIP compression disabled.</span></div>
 
-    
-
-
-
 The system comes packaged with a default preservation config which is enacted when you choose the standard "Preserve" option in the UI [(*see preserving files and folders*)](#preserving-files-and-folders)
 , and should be appropriate for most use-cases. If you would like to create a customised configuration that modifies any of the parameters described above, Curate provides an intuitive interface for customising, saving and editing your own preservation configs.
 
@@ -1040,41 +1046,52 @@ Once the details of your saved config have loaded, you may begin to modify it's 
 <div class="tip"><span class="mdi mdi-information-outline"></span><span>You'll notice each of your saved configs has a star icon to the left of its information in the saved configs area. You can click on this icon to favourite any of your saved configs. When you go to launch a preservation workflow on some content, your favourite configs will be shown in the main context menu, rather than appearing in the custom configs drop-down. 
 </span></div>
 
+
 ### Preserving Files and Folders
 
-Initiating digital preservation on any of your content in Curate is unbelievably simple. **Should we only allow preservation from appraisal?** Just navigate to the content you'd like to preserve, it can be a file, folder or multiples of either, select your content, right click, and hit "Preserve". 
+Initiating digital preservation on any of your content in Curate is incredibly straightforward. Whether you want to preserve a single file, a folder, or multiple files and folders, the process is the same. Simply navigate to the content you'd like to preserve in your Appraisal workspace [(see Appraisal Space)](#appraisal-space), select it, right-click, and choose "Preserve".
 
-This will launch the default preservation config on your selection.
+<div class="tip"> <span class="mdi mdi-information-outline"></span> <span>You can only launch preservation workflows from the Appraisal space. This ensures that your content has been properly characterised and evaluated before being preserved.</span> </div>
 
-You will receive a confirmation message reporting that your action was triggered successfully, and that's it. Curate will handle the rest. 
+Choosing "Preserve" will launch the default preservation config on your selection. You will receive a confirmation message indicating that your request was received and that Curate will now handle the rest of the preservation process.
 
-As Curate begins to action the preservation config, you will see a series of status updates appear as tags on your targeted content. 
+As Curate begins to execute the various steps in the preservation workflow, you will see status updates appear as tags on your selected content. These tags allow you to easily track the progress of the preservation process. Once Curate has finished processing your selection, a final "Preserved" tag will be applied to indicate the successful completion of the workflow.
 
-Once Curate has finished processing your selection, it will indicate that the content has been preserved in a tag.
+### Using Custom Preservation Configs
 
-To initiate a customised config on your selection [(*see creating configs*)](#creating-a-config), simply right-click your selection and then click the "Preservation Configs" dropdown option in the context menu.
-You will be prompted with a list of all the customised configs you've created, and a quick link to create a new one. Just chose your config to initiate it on your selection, the rest of the process is identical.
+In addition to the default preservation config, Curate allows you to create and use custom configs that define specific preservation parameters (see Creating Configs). To initiate a custom config on your selection:
+
+ 1. Right-click your selected content
+ 2. Choose "Preservation Configs" from the context menu
+ 3. Select your desired config from the list of custom configs to initiate the preservation workflow with the chosen config
+ 4. The rest of the process is identical to using the default config. Curate will execute the preservation workflow according to the parameters specified in your custom config.
+
 
 ### The Core Preservation Process
+Under the hood, Curate leverages the power of A3M [(*see about A3M*)](#about-a3m)to perform the key preservation actions in its workflow. These actions ensure the long-term accessibility and integrity of your digital content.
 
-Curate uses A3M [(*see about A3M*)](#about-a3m) to power the core preservation actions in its workflow:
 
 #### Characterisation
 
-A3M Uses a set of tools to characterise and extract technical properties about files and store that information in the resultant AIP METS
+A3M uses a set of specialised tools to analyze your files and extract detailed technical metadata about their format, structure, and properties. This metadata is crucial for informed preservation planning and decision-making. The extracted metadata is stored in the AIP's METS file, providing a complete technical description of the preserved content.
 
 ##### Characterisation Tools
+A3M utilizes the following industry-standard tools for file characterization:
 
- * <a href="http://ffmpeg.org/">FFProbe</a>
- * <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>
- * <a href="https://exiftool.org/index.html">ExifTool</a>
- * <a href="https://forensicswiki.xyz/wiki/index.php?title=Fiwalk">Fiwalk</a>
+<a href="http://ffmpeg.org/">FFProbe</a>: A powerful multimedia stream analyzer that provides detailed information about audio and video files
+<a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>: A versatile tool that extracts technical and tag data from video and audio files
+<a href="https://exiftool.org/index.html">ExifTool</a>: A comprehensive metadata extraction tool that supports a wide range of file formats
+<a href="https://forensicswiki.xyz/wiki/index.php?title=Fiwalk">Fiwalk</a>: A command-line tool for analyzing and extracting metadata from disk images and file systems
 
 #### Normalisation
 
-By applying the format policy registry and a set of format migration tools, A3M transforms input objects into formats that are best-positioned for long-term preservation. Normalisation is the primary digital preservation strategy in A3M and Curate.
+Normalisation is the process of converting files to standardized, preservation-friendly formats that are more likely to remain accessible over the long term.
+
+A3M determines the appropriate target format for each file based on the Format Policy Registry (FPR) [(*see the FPR section for more*)](#the-format-policy-registry-fpr), a comprehensive knowledge base that maps file formats to recommended preservation actions. By consistently applying these normalisation rules, Curate helps ensure the future renderability and usability of your content.
 
 ##### Normalisation Tools
+
+Depending on the type of content being preserved, A3M employs different tools for normalisation:
 
 *Image Files*
 
@@ -1092,19 +1109,36 @@ By applying the format policy registry and a set of format migration tools, A3M 
 
 #### Validation
 
-A3M verifies that the content of an object is complete, valid and well formed. 
+The final step in the core preservation process is validation. A3M performs a series of checks to ensure the integrity and completeness of your preserved content. This includes verifying checksums to detect any data corruption, as well as validating file formats to ensure compliance with preservation standards.
+
+Validation provides an added layer of assurance that your content has been accurately preserved and will remain accessible over time. Any issues detected during validation can be caught for review and remediation.
+
+By combining robust characterisation, normalisation, and validation, Curate's A3M-powered workflow ensures the highest levels of digital preservation for your valuable content. The end result is a standards-based, fully-described Archival Information Package (AIP) that can be confidently stored and managed for the long term.
 
 ## Packaging
+Curate integrates a powerful and flexible AIP (Archival Information Package) packaging system that allows it to output your archival objects in a variety of standardized structures. This ensures that your preserved content is stored in a well-documented, sustainable format that can be easily understood and accessed in the future.
 
-Curate integrates a custom AIP packaging system that allows it to output your archival objects in any standardised structure. By default it uses the bagit specification, and EARK packaging is also supplied out of the box. See [preservation configs](#preservation-configs) for more information about custom packaging formats.
+### Supported Packaging Formats
+By default, Curate uses the widely-adopted BagIt specification for packaging AIPs. BagIt is a hierarchical file packaging format designed to support disk-based storage and network transfer of arbitrary digital content. It provides a set of conventions for packaging content along with its metadata in a way that facilitates easy validation and long-term preservation.
 
-Once the core preservation process has completed (see [preservation](#preservation)), the resultant AIP objects will be output to your Archival workspace (see [archive workspace](#archive-space)). 
+In addition to BagIt, Curate also supports the E-ARK (European Archival Records and Knowledge Preservation) packaging format out of the box. E-ARK is a set of specifications that aim to provide a common European methodology for packaging digital archival records. It defines a set of information package formats (SIP, AIP, DIP) and guidelines for their creation, management and reuse.
 
-Please get in touch with us if Curate does not support a specific packaging format that your organisation requires.
+<div class="tip"> <span class="mdi mdi-information-outline"></span> <span>Curate's packaging system is highly extensible. If your organization requires support for a specific packaging format not currently available, please get in touch with us. We can work with you to implement custom packaging formats to meet your specific needs.</span> </div>
 
-<a href="https://www.ietf.org/rfc/rfc8493.txt">Read more about the bagit specification here</a>
+### Configuring Packaging Options
+Curate allows you to customize various aspects of the packaging process through preservation configs. You can specify parameters such as the packaging format (e.g., BagIt or E-ARK), compression options, and whether to include additional metadata or reports in the package. [See the preservation configs section](#preservation-configs) for more details on how to create and manage preservation configs.
 
-<a href="https://eark.online">Read more about EARK here</a>
+### The Packaging Workflow
+The packaging process in Curate is fully integrated with the preservation workflow. Once the core preservation actions (characterisation, normalisation, validation) have completed successfully [(see preservation)](#preservation), Curate automatically packages the resultant archival objects according to the specified packaging format and options.
+
+The generated AIP packages are then stored in your Archival workspace [(see archive workspace)](#archive-space), where they can be easily located, searched and retrieved as needed. Each AIP includes the preserved content along with comprehensive metadata (descriptive, administrative, structural, preservation) to ensure its long-term understandability and usability.
+
+<div class="tip"> <span class="mdi mdi-information-outline"></span> <span>The AIPs generated by Curate are fully self-describing and self-contained. This means they include all the information necessary to understand and render the content, without relying on any external systems or documentation.</span> </div>
+To learn more about the BagIt and E-ARK specifications and how they support long-term digital preservation, check out these resources:
+
+<a href="https://www.ietf.org/rfc/rfc8493.txt">Read more about the BagIt specification here</a>
+
+<a href="https://eark.online">Read more about E-ARK here</a>
 
 ## Miscellaneous
 
