@@ -52,15 +52,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <img src="/curate-documentation/assets/Penwern Logo Large.png" style="width: 10em;"></img>
 
-# Penwern Curate <span style="font-size: 8pt;vertical-align: super;">TM</span>
+# Penwern Curate<span style="font-size: 8pt;vertical-align: super;">TM</span>
 
-Penwern Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is a comprehensive software platform that addresses
+Penwern Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is a comprehensive software platform that addresses
 the fundamental issues with existing Digital Archiving solutions,
 allowing organisations of any size to build, preserve and manage
 best-practice Digital Archives with ground-breaking speed and
 simplicity.
 
-## Why is eArchiving important for any organization?
+## Why is eArchiving Important for Any Organization?
 
 Valuable digital content can be become inaccessible, unusable, or
 untrustworthy due to a number of factors, such as:
@@ -78,7 +78,7 @@ untrustworthy due to a number of factors, such as:
 -   You cannot find specific files due to a lack of understandable
     organisation or description.
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> helps to fix these problems by:
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> helps to fix these problems by:
 
 -   Removing threats due to viruses and malware through a system or
     virus checks and quarantine.
@@ -105,12 +105,12 @@ Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> helps to fi
 -   Preparing your content into standards-conformant information
     packages.
 
-## Is Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> Useful for Archivists and Digital Curators?
+## Is Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> Useful for Archivists and Digital Curators?
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is a platform that can be used to provide a number of
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is a platform that can be used to provide a number of
 critical functions within an electronic archiving system discretely or
 can form a complete and effective system itself. Individually,
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> can perform the following roles:
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> can perform the following roles:
 
  - Ingest, Upload and Accession
 
@@ -144,9 +144,9 @@ In combination, these services mean that Curate comprises a
 comprehensive and highly capable electronic archiving system all on its
 own.
 
-## Is Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> Useful for Business?
+## Is Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> Useful for Business?
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is a file sharing platform that integrates the features
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is a file sharing platform that integrates the features
 required for the preservation of data that go beyond basic data
 protection (back-up, integrity checking, disaster recovery).
 
@@ -159,12 +159,12 @@ digital preservation and eArchiving.
 It is cost effective, allowing you to create an archive for inactive
 data that doesn't take up valuable storage on your primary storage
 systems and allows you to consolidate data into a single platform.
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> works in a way your users understand, with a best-in-class
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> works in a way your users understand, with a best-in-class
 user experience. You don't have to train all your users on new, complex
 digital preservation applications.
 
 
-## General
+## Curate<span style="font-size: 8pt;vertical-align: super;">TM</span>
 
 ### Devices
 
@@ -191,7 +191,7 @@ your signup.
 
 ### Home Screen
 
-When you log in to Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> you will see the home screen as shown
+When you log in to Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> you will see the home screen as shown
 below and you will be guided through a short welcome tour. The home
 screen provides you with links to recent content, and ways to navigate
 through the rest of the application.
@@ -220,7 +220,7 @@ at the very bottom of the navigation panel.
 
 The bookmarks tab can be accessed from the icon in the navigation panel. 
 The bookmarks tab keeps references to all the files and folders you have 
-saved using the "bookmark" feature [(*see bookmarking a file or folder*)](#bookmarking-a-file-or-folder). 
+saved using the "bookmark" feature. See [Bookmarking a File or Folder](#bookmarking-a-file-or-folder). 
 Clicking one of the items will navigate you to its location in Curate. 
 If you want to remove an item from your bookmarks, click the <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image4.png" class="text-icon"style=""></img> icon 
 next to the item you wish to remove.
@@ -268,7 +268,7 @@ your own personal content, which would not normally be part of a group
 archive.
 
 Files uploaded into Personal are virus checked once and cannot be moved
-out into any other area of Curate <span style="font-size: 8pt;vertical-align: super;">TM</span>.
+out into any other area of Curate<span style="font-size: 8pt;vertical-align: super;">TM</span>.
 
 If you have files in Personal that you later want to add to the archive,
 you will need to re-upload into Quarantine, or if you don't have a local
@@ -282,12 +282,12 @@ content.
 
 #### Quarantine Space
 
-Content that is to be appraised and arranged in Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> should be
-uploaded into the Quarantine workspace [(*see upload and ingest for more information*)](#upload-and-ingest). This is a shared workspace and so is visible to all
+Content that is to be appraised and arranged in Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> should be
+[uploaded](#upload-and-ingest) into the Quarantine workspace. See [Upload and Ingest](#upload-and-ingest). This is a shared workspace and so is visible to all
 members of a workgroup. Uploaded files are virus checked and quarantined
 for 30 days. It is recommended that files should not be moved from the
 Quarantine workspace until the quarantine period is up, however
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is not prescriptive and you can do this.
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is not prescriptive and you can do this.
 
 If the virus scanner detects a virus or malware then the affected file
 will be moved to a folder called Infected within the Quarantine
@@ -303,14 +303,14 @@ needed).
 Files moved to the Appraisal space are characterised by the open-source
 file characterisation tool Siegfried, which generates a file type unique
 identifier from the PRONOM registry of filetypes maintained by the
-National Archive (see <https://www.nationalarchives.gov.uk/PRONOM/>).
+National Archive. See <https://www.nationalarchives.gov.uk/PRONOM/>.
 
 If you search in PRONOM by a file's unique identifier you will be able
 to see detailed information on the file format. Within the Appraisal
 workspace you can move, copy and delete files, create folders and add
 descriptive metadata. Using detailed file information you can make
-appraisal decisions. From the appraisal space, you can also preserve and
-package your objects in any configuration you wish. [*See preservation*](#preservation) and [*packaging*](#packaging) for more information.
+appraisal decisions. From the appraisal space, you can also [preserve](#preservation) and
+[package](#packaging) your objects in any configuration you wish. See [Preservation](#preservation) and [Packaging](#packaging).
 
 #### Archive Space
 
@@ -387,9 +387,9 @@ The metadata panel also contains the "import" and "export" sections. The
 import section allows you to import external DC, ISAD or any other
 associated meta file to an object. It also provides fields for entering
 the details of an external OAI-PMH record, from which you can harvest
-and import its metadata. See [*importing metadata*](#) for more. The export
+and import its metadata. The export
 section allows you to make an object harvestable via your Curate systems
-OAI-PMH server. See [*exporting records*](#) for more detail.
+OAI-PMH server.
 
 <div class="main-content-img-container">
     <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image12.png" style=""></img>
@@ -414,15 +414,14 @@ The final panel in the object information area, when a file or folder is selecte
 is the file activity panel. The file activity panel records and displays a log of
 all the actions and modifications taken that relate to the selected
 object. Please note that the activity stream does not record PREMIS
-preservation events. Those are recorded internally. See [*PREMIS in
-Curate*](#) for more information.
+preservation events. Those are recorded internally.
 
 ## Upload and Ingest
 
 ### Uploading Files and Folders into Quarantine
 
 Files and Directories can be simple and quickly uploaded into
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span>, but only into the Personal and Quarantine workspaces. If
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span>, but only into the Personal and Quarantine workspaces. If
 files are uploaded into the Personal workspace they cannot be moved out
 into any other workspace. Any file which is uploaded or moved into the
 Quarantine workspace will be virus checked and a visual indication given
@@ -431,7 +430,7 @@ is found with a virus is immediately moved to a folder within the
 Quarantine workspace called Infected. Files will be automatically
 re-scanned for viruses after 30 days if they are left in the Quarantine
 workspace, after which time they are then labeled Virus Free and
-available for Release. Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> does not stop you from moving files
+available for Release. Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> does not stop you from moving files
 out of Quarantine at any time you wish.
 
 ### Advanced Web-uploader
@@ -451,7 +450,7 @@ majority of your ingests, where the size and volume is appropriate.
 
 *If you need to ingest content using another protocol, either to adhere
 to institutional policy or for workloads that are larger than the
-webuploader is able to handle, please read the* *Curate Mission Control
+web uploader is able to handle, please read the* *Curate Mission Control
 and SFTP sections*
 
 Try uploading files and folders (you can upload any complex folder
@@ -496,7 +495,7 @@ connection.
 Enabling this option will close the upload panel as soon as the final
 file has finished uploading to Curate. Leaving this option disabled will
 allow you to browse your completed uploads in the panel and at-a-glance
-verify that they have valid integrity checks [*see pre-upload integrity verification*](#pre-upload-integrity-verification).
+verify that they have [valid integrity checks](#pre-upload-integrity-verification). See [Pre-upload Integrity Verification](#pre-upload-integrity-verification).
 
 **If a file with the same name exists**
 
@@ -545,7 +544,7 @@ when you procure Curate for your organisation, or send us a support
 ticket.
 
 *Remember, we'd strongly advise you to use the advanced web-uploader for
-most ingest usecases. It's best to only use sftp if your institution
+most ingest use cases. It's best to only use sftp if your institution
 explicitly requires it.*
 
 #### Connecting to and Uploading Through SFTP
@@ -565,7 +564,7 @@ integrity.
 
 To resolve this, you will need to generate a JSON manifest of checksums
 for your ingest content before you perform your SFTP upload, and then
-perform manual ingest integrity verification once it is complete. [*See Manual Ingest Integrity Verification for more information.*](#manual-ingest-integrity-verification)
+perform manual ingest integrity verification once it is complete. See [Manual Ingest Integrity Verification](#manual-ingest-integrity-verification).
 
 <div class="tip"><span class="mdi mdi-information-outline"></span><span>
 mission control features powerful uploading capabilities, as
@@ -577,11 +576,11 @@ faster, more robust, less fragmented and more pleasant user experience.
 Once you have generated your checksum manifest, you may proceed to
 upload your content via SFTP. Once your content is uploaded, and we have
 completed the necessary reindex, you can upload your checksum manifest.
-[*See Manual Integrity Verification for more information*](#manual-ingest-integrity-verification)
+See [Manual Integrity Verification](#manual-ingest-integrity-verification).
 
 ### Curate Mission Control
 
-For massive ingest workloads that exceed the capabilities.
+For massive ingest workloads that exceed the capabilities. This tool is under development. Please request for more information.
 
 ### Ingest Integrity Verification
 
@@ -611,7 +610,7 @@ To perform manual ingest integrity verification, follow these steps:
 #### Generating a checksum manifest
 
 There are free several tools available to do this, but we would strongly
-recommend using our companion tool "mission control". [*See Curate mission control for more information.*](#curate-mission-control)
+recommend using our companion tool "[mission control](#curate-mission-control)". See [Curate Mission Control](#curate-mission-control).
 
 <div class="tip"><span class="mdi mdi-information-outline"></span><span>
 For best practice, we recommend uploading your checksum manifest
@@ -683,7 +682,7 @@ Personal.
 #### Setup
 
 First create and share a folder for your deposit space. This folder is
-where your depositors will upload their content. [(*see sharing a file or folder*)](#sharing-a-file-or-folder)
+where your depositors will upload their content. See [Sharing a File or Folder](#sharing-a-file-or-folder).
 
 Once shared, you can enable "Upload files" under the permissions tab.
 You should typically disable download permissions unless you want your
@@ -771,7 +770,7 @@ your mandatory requirements.
 ### Move Content into Appraisal
 
 Files will be moved into the Appraisal workspace when they have
-completed quarantine and two successful virus scans. Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is not
+completed quarantine and two successful virus scans. Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is not
 prescriptive however and you can move data early. The Appraisal
 workspace is used to create arrangements (folder structures containing
 your files), conduct content appraisal helped by the file information
@@ -780,7 +779,7 @@ available and to create descriptions.
 Try moving files and folders from the Quarantine workspace into
 Appraisal. You can do this by selecting, right clicking and selecting
 Move or by dragging and dropping to a different workspace in the listing
-in the lefthand column. Multiple files or folders can be selected for
+in the left hand column. Multiple files or folders can be selected for
 each move using the usual Control or Shift operations.
 
 <div class="main-content-img-container">
@@ -791,10 +790,11 @@ Note that if files are moved into Appraisal early (i.e. before the
 quarantine period is up) then the Quarantine Status tag changes to Risk
 to indicate that full quarantine conditions were not met.
 
-Once you have files in the Appraisal workspace, Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> runs
+Once you have files in the Appraisal workspace, Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> runs
 comprehensive file characterisation programmes. To access the generated
-characterization information, select a file and check the file
-information panel in the object information area. [(*see File Information Panel*)](#file-information-panel). Characterised objects will include these fields in their
+characterization information, select a file and check the [file information panel](#file-information-panel) in the object information area. See [File Information Panel](#file-information-panel).
+
+Characterised objects will include these fields in their
 information area:
 
 -   File MIME type
@@ -833,22 +833,22 @@ it goes in the system.
 #### Describing a Single File or Folder
 
 Descriptive metadata is used to annotate a file, folder or group of
-files in a folder structure. All descriptive metadata in Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> is
-indexed and searchable [(*see search*)](#search-and-access). Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> provides both the
-Dublin Core simple 15 element schema which you can read about in detail
-(if you want to) <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3">here</a>
-and the full General International Standard Archival Description ISAD(G)
-descriptive metadata schema which you can read more about <a href="https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition">here</a> 
+files in a folder structure. All descriptive metadata in Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> is
+indexed and [searchable](#search-and-access). See [Search and Access](#search-and-access).
+
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> provides both the
+<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3">Dublin Core</a> simple 15 element schema
+and the full <a href="https://www.ica.org/en/isadg-general-international-standard-archival-description-second-edition">General International Standard Archival Description ISAD(G)</a> descriptive metadata schema.
 
 You can be as precise as you wish with the use of metadata elements by
 following the specifications and controlled vocabularies. Alternatively,
 you can just use those elements you wish, in the way that suits you,
-(for example by putting a title in for each file). Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> does not
+(for example by putting a title in for each file). Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> does not
 impose rules.
 
 To begin to describe any file or folder in Curate, select the object you
 would like to describe. On the right hand side of your screen, in the
-object information area, you will see the file metadata panel. ([*see object information area*](#object-information-area) , and [*metadata panel*](#metadata-panel)).
+[object information area](#object-information-area), you will see the file [metadata panel](#metadata-panel). See [Object Information Area](#object-information-area) and [Metadata Panel](#metadata-panel).
 
 <div class="main-content-img-container">
     <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image25.png" style=""></img>
@@ -880,8 +880,8 @@ objects you would like to create or modify descriptive records for.
     <img src="/curate-documentation/vertopal_205d29a8e99241c0a1d0e3064ad58f44/media/image27.png" style=""></img>
 </div>
 
-In the object information area, you will see only the file actions panel
-[(*see file actions panel*)](#file-actions-panel) which will contain options to download the
+In the object information area, you will see only the
+[file actions panel](#file-actions-panel) which contains options to download the
 multiple selection of objects, or "meta data" to modify the descriptive
 records of all the files.
 
@@ -912,7 +912,7 @@ files in your selection will be updated.
 
 ### Creating a Report on File Types
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> identifies file types via a MIME type and a PRONOM ID. You
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> identifies file types via a MIME type and a PRONOM ID. You
 can generate detailed reports of the MIME types, for example to create a
 digital asset register, for any aggregation of files or folders. Try
 going to a high-level folder that contains other folders and files,
@@ -927,7 +927,7 @@ report as a CSV file.
 
 ### Creating a Transfer Package or SIP
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> can create packages or SIPs for submission to repositories or
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> can create packages or SIPs for submission to repositories or
 digital preservation platforms such as: Archivematica, Preservica and
 EARK compliant systems using the templates in the Package Templates
 workspace. We can give you a demonstration of package creation if you
@@ -935,7 +935,7 @@ are interested, just send us a message via the support channel.
 
 ## Preservation
 
-Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> features a highly automated digital preservation service that
+Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> features a highly automated digital preservation service that
 wraps the open source tool A3M into a dynamic workflow. Curate preservation workflows are highly configurable, simple to action, 
 and automate the process of performing best-practice preservation and packaging actions on your files and folders. 
 
@@ -943,11 +943,11 @@ Here's the enriched version with proper markdown formatting and escaping:
 
 ### About A3M
 
-A3M is an open-source tool, developed by the sensational Artefactual Systems <span style="font-size: 8pt;vertical-align: super;">TM</span>, that distills the essential preservation and packaging functionality of their widely-used platform Archivematica <span style="font-size: 8pt;vertical-align: super;">TM</span> into a specialised module. By removing unneeded components like the backend storage management and frontend-application while maintaining the same core code that has powered digital archiving programs across the globe, A3M is able to provide reliable, comprehensive preservation and packaging functionalities in entirely new contexts.
+A3M is an open-source tool, developed by the sensational Artefactual Systems<span style="font-size: 8pt;vertical-align: super;">TM</span>, that distills the essential preservation and packaging functionality of their widely-used platform Archivematica<span style="font-size: 8pt;vertical-align: super;">TM</span> into a specialised module. By removing unneeded components like the backend storage management and frontend-application while maintaining the same core code that has powered digital archiving programs across the globe, A3M is able to provide reliable, comprehensive preservation and packaging functionalities in entirely new contexts.
 
-<a href="https://a3m.readthedocs.io/en/latest/">Read the A3M documentation</a>
+Read the <a href="https://a3m.readthedocs.io/en/latest/">A3M Documentation</a>
 
-<a href="https://github.com/artefactual-labs/a3m">Explore the A3M GitHub repository</a>
+Explore the <a href="https://github.com/artefactual-labs/a3m">A3M GitHub Repository</a>
 
 <span style="font-size: 8pt;">A3M and Archivematica are trademarks of <a href="https://www.artefactual.com/">Artefactual Systems Inc.</a></span>
 
@@ -1004,7 +1004,7 @@ your content:
 
 * *AIP Packaging Type:* Select the output packaging format of your workflow AIPs.
     * *standard:* Standard bagit AIP packaging 
-    * *EARK:* Package AIPs in line with the EARK specifications. <a href="https://eark.online/">Read more about EARK here.</a>
+    * *EARK:* Package AIPs in line with the EARK specifications. Read more about <a href="https://eark.online/">EARK</a>.
 
 * *Compress AIPs:* Whether to apply a compression algorithm to your output AIP object. 
     * *Compression Algorithm:* Compression algorithm to apply to AIPs.
@@ -1020,10 +1020,10 @@ your content:
 
 <div class="warning"><span class="mdi mdi-alert"></span><span>Enabling compression for your AIPs will save a small amount of storage in your Archive workspace, depending on the selected algorithm and level, but it will also prevent Curate from being able to index their contents. This means you will not be able to search for files inside of your AIPs. As a result, we strongly recommend leaving AIP compression disabled.</span></div>
 
-The system comes packaged with a default preservation config which is enacted when you choose the standard "Preserve" option in the UI [(*see preserving files and folders*)](#preserving-files-and-folders)
+The system comes packaged with a default preservation config which is enacted when you choose the standard "Preserve" option in the UI. See [Preserving Files and Folders](#preserving-files-and-folders).
 , and should be appropriate for most use-cases. If you would like to create a customised configuration that modifies any of the parameters described above, Curate provides an intuitive interface for customising, saving and editing your own preservation configs.
 
-#### Creating a config
+#### Creating a Config
 
 To create a new preservation config, first select the main user dropdown in the top left-hand corner of the Curate interface by clicking this icon: <div size="38" style="color: rgb(255, 255, 255); background-color: rgb(0, 102, 138); user-select: none; display: inline-flex; align-items: center; justify-content: center; font-size: 19px; border-radius: 50%; height: 38px; width: 38px;"><span class="mdi mdi-account" color="#ffffff" style="display: flex;align-content: center;color: rgb(255, 255, 255); position: relative; font-size: 22.8px; display: inline-block; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 22.8px; height: 22.8px; margin: 7.6px;"></span></div>
 
@@ -1032,11 +1032,11 @@ From the dropdown, select "Preservation Configs" to open the configs menu.
     <img src="/curate-documentation/assets/Preservation Configs Menu.png"></img>
 </div>
 
-On the left hand side of the menu, you will find all the controls for creating new configs or editing existing ones. On the right, you will find a list of all of your saved configs. [(*see modifying configs*)](#modifying-a-config)
+On the left hand side of the menu, you will find all the controls for creating new configs or editing existing ones. On the right, you will find a list of all of your saved configs. See [Modifying Configs](#modifying-a-config)
 
 To create a config, simply customise your desired parameters in the left hand area and then give your new config a name in the "details" box. Once you have entered a name, you will see the "Save config" button appear. Once you've hit "save", your configs will be reloaded and you will see your new config slide into the list of saved configs on the right.
 
-#### Modifying a config
+#### Modifying a Config
 
 To modify your saved configs, navigate to the preservation configs menu, locate your saved config in the "Saved configs" area on the right of the menu, hover over and click your config to load it into the
 working area on the left of the preservation configs menu.
@@ -1049,7 +1049,7 @@ Once the details of your saved config have loaded, you may begin to modify it's 
 
 ### Preserving Files and Folders
 
-Initiating digital preservation on any of your content in Curate is incredibly straightforward. Whether you want to preserve a single file, a folder, or multiple files and folders, the process is the same. Simply navigate to the content you'd like to preserve in your Appraisal workspace [(see Appraisal Space)](#appraisal-space), select it, right-click, and choose "Preserve".
+Initiating digital preservation on any of your content in Curate is incredibly straightforward. Whether you want to preserve a single file, a folder, or multiple files and folders, the process is the same. Simply navigate to the content you'd like to preserve in your [Appraisal Workspace](#appraisal-space), select it, right-click, and choose "Preserve".
 
 <div class="tip"> <span class="mdi mdi-information-outline"></span> <span>You can only launch preservation workflows from the Appraisal space. This ensures that your content has been properly characterised and evaluated before being preserved.</span> </div>
 
@@ -1068,7 +1068,7 @@ In addition to the default preservation config, Curate allows you to create and 
 
 
 ### The Core Preservation Process
-Under the hood, Curate leverages the power of A3M [(*see about A3M*)](#about-a3m)to perform the key preservation actions in its workflow. These actions ensure the long-term accessibility and integrity of your digital content.
+Under the hood, Curate leverages the power of A3M to perform the key preservation actions in its workflow. These actions ensure the long-term accessibility and integrity of your digital content. See [About A3M](#about-a3m).
 
 
 #### Characterisation
@@ -1078,16 +1078,16 @@ A3M uses a set of specialised tools to analyze your files and extract detailed t
 ##### Characterisation Tools
 A3M utilizes the following industry-standard tools for file characterization:
 
-<a href="http://ffmpeg.org/">FFProbe</a>: A powerful multimedia stream analyzer that provides detailed information about audio and video files
-<a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>: A versatile tool that extracts technical and tag data from video and audio files
-<a href="https://exiftool.org/index.html">ExifTool</a>: A comprehensive metadata extraction tool that supports a wide range of file formats
-<a href="https://forensicswiki.xyz/wiki/index.php?title=Fiwalk">Fiwalk</a>: A command-line tool for analyzing and extracting metadata from disk images and file systems
+ * <a href="http://ffmpeg.org/">FFProbe</a>: A powerful multimedia stream analyzer that provides detailed information about audio and video files.
+ * <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>: A versatile tool that extracts technical and tag data from video and audio files.
+ * <a href="https://exiftool.org/index.html">ExifTool</a>: A comprehensive metadata extraction tool that supports a wide range of file formats.
+ * <a href="https://forensicswiki.xyz/wiki/index.php?title=Fiwalk">Fiwalk</a>: A command-line tool for analyzing and extracting metadata from disk images and file systems.
 
 #### Normalisation
 
 Normalisation is the process of converting files to standardized, preservation-friendly formats that are more likely to remain accessible over the long term.
 
-A3M determines the appropriate target format for each file based on the Format Policy Registry (FPR) [(*see the FPR section for more*)](#the-format-policy-registry-fpr), a comprehensive knowledge base that maps file formats to recommended preservation actions. By consistently applying these normalisation rules, Curate helps ensure the future renderability and usability of your content.
+A3M determines the appropriate target format for each file based on the [Format Policy Registry (FPR)](#the-format-policy-registry-fpr), a comprehensive knowledge base that maps file formats to recommended preservation actions. By consistently applying these normalisation rules, Curate helps ensure the future renderability and usability of your content. See [The Format Policy Registry (FPR)](#the-format-policy-registry-fpr).
 
 ##### Normalisation Tools
 
@@ -1126,19 +1126,21 @@ In addition to BagIt, Curate also supports the E-ARK (European Archival Records 
 <div class="tip"> <span class="mdi mdi-information-outline"></span> <span>Curate's packaging system is highly extensible. If your organization requires support for a specific packaging format not currently available, please get in touch with us. We can work with you to implement custom packaging formats to meet your specific needs.</span> </div>
 
 ### Configuring Packaging Options
-Curate allows you to customize various aspects of the packaging process through preservation configs. You can specify parameters such as the packaging format (e.g., BagIt or E-ARK), compression options, and whether to include additional metadata or reports in the package. [See the preservation configs section](#preservation-configs) for more details on how to create and manage preservation configs.
+Curate allows you to customize various aspects of the packaging process through [preservation configs](#preservation-configs). You can specify parameters such as the packaging format (e.g., BagIt or E-ARK), compression options, and whether to include additional metadata or reports in the package. See [Preservation Configs](#preservation-configs).
 
 ### The Packaging Workflow
-The packaging process in Curate is fully integrated with the preservation workflow. Once the core preservation actions (characterisation, normalisation, validation) have completed successfully [(see preservation)](#preservation), Curate automatically packages the resultant archival objects according to the specified packaging format and options.
+The packaging process in Curate is fully integrated with the [preservation workflow](#preservation). Once the core preservation actions (characterisation, normalisation, validation) have completed successfully, Curate automatically packages the resultant archival objects according to the specified packaging format and options. See [Preservation](#preservation).
 
-The generated AIP packages are then stored in your Archival workspace [(see archive workspace)](#archive-space), where they can be easily located, searched and retrieved as needed. Each AIP includes the preserved content along with comprehensive metadata (descriptive, administrative, structural, preservation) to ensure its long-term understandability and usability.
+The generated AIP packages are then stored in your [Archival Workspace](#archive-space), where they can be easily located, searched and retrieved as needed. Each AIP includes the preserved content along with comprehensive metadata (descriptive, administrative, structural, preservation) to ensure its long-term understandability and usability.
 
 <div class="tip"> <span class="mdi mdi-information-outline"></span> <span>The AIPs generated by Curate are fully self-describing and self-contained. This means they include all the information necessary to understand and render the content, without relying on any external systems or documentation.</span> </div>
 To learn more about the BagIt and E-ARK specifications and how they support long-term digital preservation, check out these resources:
 
-<a href="https://www.ietf.org/rfc/rfc8493.txt">Read more about the BagIt specification here</a>
+<br>
 
-<a href="https://eark.online">Read more about E-ARK here</a>
+Read more about the <a href="https://www.ietf.org/rfc/rfc8493.txt">BagIt Specification</a>.
+
+Read more about <a href="https://eark.online">E-ARK</a>.
 
 ## Miscellaneous
 
@@ -1178,15 +1180,15 @@ object is added as an additional item in the same folder.
 
 ## Search and Access
 
-### Sharing a file or folder
+### Sharing a File or Folder
 
 You can create a public or secure, private link for any file or folder
-in your account. When clocking the link, guest users can view, download,
+in your account. When clicking the link, guest users can view, download,
 view metadata and even upload content. Start by selecting your content, and then selecting "share" either from the right click context-menu, or from the top main options bar in the file-list.
 
 ### Searching for Files
 
-You can do simple searches across all of Curate <span style="font-size: 8pt;vertical-align: super;">TM</span> using the search box
+You can do simple searches across all of Curate<span style="font-size: 8pt;vertical-align: super;">TM</span> using the search box
 at the top right of the screen. The simple search is conducted over file
 names and folder names only (not metadata). Complete names or fragments
 of filenames can be used, for example a file called myphotograph.jpg can
