@@ -1247,6 +1247,70 @@ window, which should be labelled with a truncated version of your user
 ID and select Support. This will take you to a contact form which goes
 directly to the Penwern support team.
 
+## Integrations
+
+### Microsoft Sharepoint
+
+Curate's Sharepoint integration provides a robust and user-friendly solution for organisations to safeguard their valuable digital content stored in Microsoft 365 environments. This integration seamlessly connects Sharepoint with Curate, enabling efficient management and long-term protection of records directly from within Sharepoint. 
+
+This documentation will guide you through setting up the integration between Curate and Sharepoint, and also using the feature.
+
+NB: Curate Sharepoint is an additional feature available to Curate Enterprise customers. If you have not yet added Sharepoint integration to your Curate Enterprise contract and you would like to explore your options, please get in touch with us.
+
+<div class="tip">
+    <span class="mdi mdi-information-outline"></span>
+    <span>
+        <strong>Things you'll need:</strong>
+        </br>
+        <ul>
+            <li>Administrative access to your organisations Sharepoint admin centre, or help from someone who does.</li>
+            <li>Permission to create an API key for Curate in your Sharepoint admin centre that confers read access to Document Libraries in which you would like the Curate integration to be available.</li>
+            <li>Permission to upload and deploy Sharepoint extensions to your organisations Sharepoint environment.</li>
+            <li>An account on your organisations Curate Enterprise system with a user-admin tier role.</li>
+            <li>15-20 minutes of time.</li>
+        </ul>
+    </span>
+</div>
+
+#### Security Setup
+
+To connect your Sharepoint system to Curate, you will first need to give both Curate and Sharepoint sufficient permissions to interract with eachother securely. 
+
+**Explanation**
+
+Both Curate and Sharepoint are highly secure platforms protected by comprehensive access protocols that require explicit and controlled access in order to allow users, or in this case eachother, to perform useful actions amongst themselves. 
+
+In order to facilitate a seamless user-experience, the Curate Sharepoint integration leverages the Microsoft Graph API, which enables your Curate system to programatically access data stored in Microsoft services like Sharepoint. When you preserve a file with Curate from Sharepoint, you actually just tell Curate which files you would like to preserve, rather than supplying it the files directly. Curate then uses it's access to your content via the Graph API to directly stream the specified files.
+
+Not only does this make the Preserve action *instant*, no matter the size of your file selection, but it also means data movement is kept to a minimum, performance is improved, and the stability and robustness of your local connection is irrelevent. Uploads of any size are managed completely automatically with no requirement for your device to remain connected to a network, or for you to monitor its progress.
+
+As a result, to access and retrieve your specified data, Curate requires specific permissions to use your Sharepoint data. Similarly, Sharepoint requires specific permissions from Curate in order for Curate to allow your requests to be authenticated and actioned securely.
+
+All traffic between Curate and a properly configuree Sharepoint environment is implicitly encrypted in transit by the HTTPS protocol, and your data never leaves a secure stream set directly between your Curate and Sharepoint systems, which are both highly protected platforms with thorough authentication systems. 
+
+Ultimately, this solution is much more secure, robust and frictionless than the alternative of downloading content to your, potentially risky, local client and sending the data to Curate thereafter. 
+
+#### Generating a Curate API Key
+
+First, lets generate a Curate API key which will be supplied to Sharepoint in order for your Curate system to authenticate requests coming in from your Sharepoint environment. 
+
+<div class="warning"><span class="mdi mdi-alert"></span><span>You should only generate an API key for any system if you understand what you are doing and the potential risks. If you are unsure and would like some advice, please get in touch with us. You should follow common best-practice guidance for storing, securing and retaining your API keys.</span></div>
+
+To generate a Curate API key:
+
+- log in to a Curate account with at least a user-admin tier role for your organisation.
+- Open the user account menu by clicking your account profile icon in the top left hand corner of the Curate interface (it's the same menu you log-out from).
+
+<div class="main-content-img-container">
+    <img src="/curate-documentation/assets/user-account-menu.png" style=""></img>
+</div>
+
+- Select the "API Keys <span class="mdi mdi-chip menu-icons" style="color: rgb(117, 117, 117);font-size: 16px;user-select: none;"></span>" button to open the API keys menu.
+
+<div class="main-content-img-container">
+    <img src="/curate-documentation/assets/api-keys-menu.png" style=""></img>
+</div>
+
 # Roadmap and Suggestions
 
 Curate is an incredibly dynamic and flexible platform on which it is easy for us
